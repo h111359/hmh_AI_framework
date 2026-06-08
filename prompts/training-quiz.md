@@ -14,6 +14,7 @@ On each 3 incorrectly answered questions on specific area - decrease the difficu
 If answer -> [explain|do not know|don't know|clarify|can not answer|can't answer|difficult|no idea] or similar: provide detail explanation and additional training
 If no $topic: ask for topic
 If answer -> [evaluate|prise|mark|score] or similar: provide evalyuation of skills split by subareas
+If answer -> [level up|make harder|go deeper|more difficult|increase difficulty|advance] or similar: start asking harder and more advanced questions
 
 RULES: 
 
