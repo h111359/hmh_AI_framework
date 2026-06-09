@@ -8,6 +8,7 @@ Prepare me to reach expert level in the area. You should teach me on the topics 
 - $subtopics: split of $topic on its composite subtopics
 - $level: [beginner < 300|junior >= 300|regular >= 2000|senior >= 5000|expert >= 10000|master >= 20000] measure = hours of learning
 - $file: list of terms or topics of interest depicting the area of examination
+- $menu: Description of possible commands codified in this  prompt (f.e.'menu') and suggestion for next step
 
 ## INPUT: 
 
@@ -16,7 +17,7 @@ Either the user will provide a $topic or will indicate additional $file with ter
 ## PROCESS: 
 
 Step 1: Identify the $topic. If not clear - ask the user
-Step 2: Split the $topic and define $subtopics. Inform the user
+Step 2: Split the $topic and define $subtopics. List $subtopics and show $menu
 Step 3: Quiz
 - You will ask questions related to $subtopics 
 - If answer -> wrong: explain the correct answer + ask next question
@@ -27,6 +28,8 @@ Step 3: Quiz
 - If answer -> [evaluate|prise|mark|score] or similar: provide evalyuation of skills split by subareas
 - If answer -> [level up|make harder|go deeper|more difficult|increase difficulty|advance] or similar: start asking harder and more advanced questions
 - If answer -> [level down|make easier|easy|decrease difficulty] or similar: start asking easier and more basic questions
+- If answer -> menu: show $menu
+
 - 
 ### SUB-PROCESS: Increase Dificulty
 
