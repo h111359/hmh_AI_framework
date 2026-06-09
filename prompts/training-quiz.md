@@ -33,3 +33,4 @@ MUST: one question at the time
 MUST: check online the latest development of the quiz area 
 CAN: start quiz from mid level
 MUST: adapt each next question to the user knowledge progress
+MUST: Follow convention `https://github.com/h111359/hmh_AI_framework/blob/main/conventions/question-quiz.md`
