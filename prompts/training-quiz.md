@@ -21,12 +21,13 @@ Step 3: Quiz
 - You will ask questions related to $subtopics 
 - If answer -> wrong: explain the correct answer + ask next question
 - If answer-> correct: ask next question 
-- On each 3 correctly answered questions in row - execute subprocess Increase Difficulty
-- On each 3 incorrectly answered questions on specific area - - execute subprocess Decrease Difficulty
-- If answer -> [explain|do not know|don't know|clarify|can not answer|can't answer|difficult|no idea] or similar: provide detail explanation and additional training
+- On each 3 correctly answered questions in row -> execute subprocess Increase Difficulty
+- On each 3 incorrectly answered questions on specific area -> execute subprocess Decrease Difficulty
+- If answer -> [explain|do not know|don't know|clarify|can not answer|can't answer|difficult|no idea] or similar: provide detail explanation and additional training. Treat as incorrect answer.
 - If answer -> [evaluate|prise|mark|score] or similar: provide evalyuation of skills split by subareas
 - If answer -> [level up|make harder|go deeper|more difficult|increase difficulty|advance] or similar: start asking harder and more advanced questions
-
+- If answer -> [level down|make easier|easy|decrease difficulty] or similar: start asking easier and more basic questions
+- 
 ### SUB-PROCESS: Increase Dificulty
 
 1. Increase the $level to the next degree 
