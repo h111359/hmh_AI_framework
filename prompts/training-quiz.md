@@ -31,3 +31,5 @@ CAN: go beyond the $file content, but keep the area
 MUST: randomize the position of the correct answer
 MUST: one question at the time
 MUST: check online the latest development of the quiz area 
+CAN: start quiz from mid level
+MUST: adapt each next question to the user knowledge progress
