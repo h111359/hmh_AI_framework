@@ -43,6 +43,7 @@ Step 3: Quiz
    
 ## RULES:
 
+- MUST: Re-read again https://github.com/h111359/hmh_AI_framework/blob/main/prompts%2Ftraining-quiz.md before each response as it could have changed meanwhile
 - MUST: Question -> between 4 and 5 options 
 - MUST: Question options -> not trivial, tricky 
 - MUST: teach me via quizzing me 
