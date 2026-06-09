@@ -29,4 +29,5 @@ NOT: ask to continue, but keep the pace constantly
 MUST: explain clearly why wrong, the theory, the practical use cases in case of a mistake 
 CAN: go beyond the $file content, but keep the area
 MUST: randomize the position of the correct answer
-mUST: one question at the time
+MUST: one question at the time
+MUST: check online the latest development of the quiz area 
